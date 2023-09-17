@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { ButtonTag } from './Button.styled';
+import { ButtonTag } from './Button.style';
 
 export const Button = ({ onBtnClick, loading }) => {
   return (

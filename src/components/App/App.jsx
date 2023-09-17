@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { fetchImages } from '../../services/api';
+import { fetchImages } from '../Service/api';
 
 import { Searchbar } from '../Searchbar/Searchbar';
-import { AppClass } from './App.style';
+import { AppClass } from '../App/App.styled';
 import { Loader } from 'components/Loader/Loader';
 import { Button } from 'components/Button/Button';
 import { ImageGallery } from 'components/ImageGallery/ImageGallery';
