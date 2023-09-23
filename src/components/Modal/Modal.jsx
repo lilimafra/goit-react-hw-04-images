@@ -26,13 +26,12 @@ export const Modal = ({ onCloseModal, largeImageURL }) => {
     };
   }, [onCloseModal]);
 
-  return createPortal(
+  return (
     <Overlay onClick={onOverlayClick}>
       <ModalDiv>
         <img src={largeImageURL} alt="Large_image" />
       </ModalDiv>
-    </Overlay>,
-    modalRoot
+    </Overlay>
   );
 };
 
